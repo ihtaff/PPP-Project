@@ -1,0 +1,82 @@
+.cards__wrapper{
+  display: inline;
+}
+.cards__items{
+  display: flex;
+  margin-bottom: 2cm;
+  
+}
+#ab{
+  height: 6cm;
+  width: 12cm;
+  border:1px solid #080808;
+  background-color: #ffffff;
+  margin-left: 1cm;
+  align-content: center;
+  align-items: flex-end;
+ 
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+
+ font-weight: bold;
+  text-align:center;
+  margin-bottom: 0.5CM;
+  
+}
+h4{
+
+  font-weight: bold;
+   text-align:center;
+   margin-bottom: 0.5CM;
+   margin-top: 0.5cm;
+ }
+
+#input{
+  background-color: rgb(255, 255, 255);
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+.elements {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background: url('One-common-platform-addresses-.png') center center/cover no-repeat; 
+    height: 100vh;
+    width: 100%;
+   
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+
+
+}
+.elm {
+
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+img {
+  height: 300px;
+  width: 300px;
+  
+}
+.div{
+  
+  border-radius: 4px;
+  background-color: rgb(198, 194, 248);
+ width: 50%;
+
+}
+#color{
+  color: blue;
+}
